@@ -1,0 +1,460 @@
+
+/*tło*/
+body {
+	background: linear-gradient(
+    	60deg,
+    	#5b0f00 0%,
+    	#5b0f00 70%,
+    	black 70%,
+    	black 100%
+	);
+
+	ddisplay: flex;
+	justify-content: center;
+  	salign-items: center;
+	font-family: 'EB Garamond';
+	font-size:12pt;
+}
+
+
+
+br[id = "male"] {
+   display: block;
+   margin: 13px 0;
+   content:" "
+}
+
+span[id = "tytul"]{
+	font-size:20pt;
+	color:#5b0f00;
+	font-weight:700;
+}
+
+
+span[id = "strzałkawprawo"]{
+
+	float: right !important;
+}/*
+
+span[id = "smoll"]{
+	ffont-family:'Impact';
+	color:#5b0f00;
+	font-weight:700
+}
+
+a{
+	color: black;
+	text-decoration:none;
+}
+*/
+
+div[id="baza"]{
+	margin-right: 200pt;
+	margin-left: 200pt;
+	margin-top: 45pt;
+	margin-bottom:55pt;
+	border-radius: 10px;
+	width:500pt;
+	padding: 0%;
+
+}
+
+.personalia {	
+	height: 300pt;
+	background-color:#5b0f00;
+}
+
+.charakter {
+	background-color:white;
+	text-align: justify-all;
+}
+
+.charaktertresc {
+	border-radius: 10px;
+	width:93%;
+	background-color:white;
+	padding: 3.5%;
+	text-align: justify-all;
+	text-justify: inter-word;
+
+}
+
+.wyglad {
+	height: 310pt;
+	margin-right: 150pt !important;
+	margin-left: 150pt !important;
+	width:600pt !important;
+	border-radius: 10px;
+	padding: 0%;
+	background-color:#5b0f00;
+
+}
+
+div[id="relacje"] {
+	margin-right: 200pt;
+	margin-left: 200pt;
+	margin-top: 50pt;
+	margin-bottom:55pt;
+	height: 300pt;
+	width:500pt;
+	border-radius: 10px;
+	padding: 0%;
+
+	background-color:white;
+
+}
+
+
+div[id="prawo"] {
+	margin:0;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    padding: 3.5%;
+    float:left;
+    transition: 1s;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div[id="prawoo"] {
+	margin:0;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    padding: 3.5%;
+    float:left;
+    transition: 1s;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 48%;
+
+    	bbackground-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012854466585829497/unknown.png");
+    	background-image: url("https://i.pinimg.com/564x/c8/36/bb/c836bb113bdd59e3a9cfe0c4250ad38d.jpg");
+
+    
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+
+.prawopersonalia {
+	
+	width: 48%;
+    background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012716382904913960/w.png");
+    color:white;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.lewociekawostki {
+	
+	width: 48%;
+    background-image: url("https://i.pinimg.com/564x/24/63/74/24637470aa26a17430e8e641850a2f17.jpg");
+    color:white;
+    
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.prawowyglad {
+	
+	width: 56%;
+    background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png");
+
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+
+
+div[id="lewo"]{
+
+	margin-left: 0;
+	height: 100%;
+	border-radius: 10px 0 0 10px;
+	padding: 3.5%;
+	float: left;
+
+	transition: 1s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div[id="lewoo"]{
+
+	margin-left: 0;
+	height: 100%;
+	border-radius: 10px 0 0 10px;
+	padding: 3.5%;
+	float: left;
+
+	transition: 1s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	width: 38%;
+	
+	background-color: #5b0f00;
+    background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png"); 
+
+}
+
+div[id="lewooo"]{
+
+	margin-left: 0;
+	height: 100%;
+	border-radius: 10px 0 0 10px;
+	padding: 3.5%;
+	float: left;
+
+	transition: 1s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	
+    background-color: #5b0f00;
+	width: 30%;
+	background-image: url("https://media.discordapp.net/attachments/844563617533919242/1012796554261839892/20220826_205136.png?width=513&height=663");
+	background-size:280pt;
+
+	color:white;
+
+}
+
+.lewopersonalia {
+
+	width: 38%;
+	
+	background-color: #5b0f00;
+    background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png"); 
+
+}
+
+
+.prawociekawostki {
+
+	width: 38%;
+	
+	background-color: #5b0f00;
+    background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png"); 
+
+}
+
+
+
+
+.lewozgody {
+
+	
+
+}
+
+.zgody{
+
+
+		background-image: url("https://media.discordapp.net/attachments/844563617533919242/1012796554261839892/20220826_205136.png?width=513&height=663");
+
+
+}
+
+
+
+/*przyciemnione wersje*/
+div[id="prawo"].ciemne1{
+	background-image: url("https://media.discordapp.net/attachments/844563617533919242/1012727190774874202/unknown.png?width=663&height=663");
+	ccolor: white !important;
+}
+
+div[id="lewo"].ciemne2{
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012797354774110288/unknown.png");
+	ccolor: white !important;
+}
+
+div[id="prawoo"].ciemne3{
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1013187064528900176/unknown.png") !important;
+	
+	color: white !important;
+}
+
+
+.relka{
+	bbackground-color: blue;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 100%;
+	display:inline-block;
+
+}
+.ciag{
+	background-color: blue;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 500px !important;
+	display:inline-block;
+}
+
+div[id="relka1"]{
+	bbackground-color: red;
+	float:left;
+
+	
+}
+
+div[id="relka2"]{
+	bbackground-color: yellow;
+	float:left;
+	margin: 10px;
+
+
+	display:inline-block;
+	
+}
+
+img{
+	width:180px;
+	height: 180px;
+	padding:10px;
+}
+
+.l { float: left; }
+.r { float: right; }
+
+div[id = "relacja"]{
+
+}
+
+
+/*
+
+div[id="lewo"].strona2{
+	background-image: url("https://i.pinimg.com/564x/24/63/74/24637470aa26a17430e8e641850a2f17.jpg");
+	width: 24%;
+	transition: 1s;
+	color:white;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+div[id="prawo"].strona2{
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png");
+	width: 20%;
+	transition: 1s;
+}
+
+
+div[id="lewo"].strona3{
+	font-size: 0pt;
+	margin-left: 0%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png");
+	
+	transition: margin-left 1s, width 1s, background-image 1s;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+div[id="lewo"].pokaz{
+	font-size: 12pt;
+	transition: 1s;
+	color:black;
+}
+
+
+div[id="prawo"].strona3{
+	transition: 1s;
+	margin-right: 0%;
+	width: 14%;
+	background-image: url("https://i.pinimg.com/564x/2d/e1/e9/2de1e96603d435b58087718ace68da55.jpg");
+	/*background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012796554261839892/20220826_205136.png");
+	
+	
+	transition: 1s;
+}
+
+div[id="lewo"].strona4{
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png");
+	
+	background-size:360px;
+	width: 24%;
+	transition: 1s;
+	color:black;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+div[id="prawo"].strona4{
+	background-image: url("https://media.discordapp.net/attachments/844563617533919242/1012796554261839892/20220826_205136.png?width=513&height=663");
+	
+	width: 20%;
+	transition: 1s;
+}
+
+div[id="lewo"].strona5{
+	background-image: url("https://i.pinimg.com/564x/c8/36/bb/c836bb113bdd59e3a9cfe0c4250ad38d.jpg");
+	
+
+	width: 20%;
+	transition: 1s;
+	color:black;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+div[id="lewo"].ciemne5{
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012854466585829497/unknown.png");
+	color:white;
+}
+
+div[id="prawo"].strona5{
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png");
+	
+	width: 24%;
+	transition: 1s;
+}
+
+div[id="lewo"].strona6{
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012736516721758248/unknown.png");
+	
+	
+	background-size:360px;
+	width: 20%;
+	transition: 1s;
+	color:black;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+div[id="prawo"].strona6{
+	background-image: url("https://i.pinimg.com/564x/42/b9/4f/42b94fd5c15a10e97cd776dd4784da16.jpg");
+	
+	
+	width: 24%;
+	transition: 1s;
+}
+
+
+
+
+
+
+div[id="lewo"].ciemne2{
+	background-image: url("https://cdn.discordapp.com/attachments/844563617533919242/1012797354774110288/unknown.png");
+	color: white;
+}
+
+div[id="prawo"].ciemne6{
+	background-image: url("https://media.discordapp.net/attachments/844563617533919242/1012855595918958672/unknown.png");
+	color: white;
+}
+
+p[id = "tresc"]{
+
+}
+*/
