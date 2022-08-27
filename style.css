@@ -144,6 +144,10 @@ div[id="prawoo"] {
     color:white;
     text-align: justify;
     text-justify: inter-word;
+
+
+    bbackground-image: url("https://media.discordapp.net/attachments/844563617533919242/1012796554261839892/20220826_205136.png?width=513&height=663");
+	bbackground-size:280pt;
     
 }
 
@@ -280,23 +284,17 @@ div[id="prawoo"].ciemne3{
 
 .relka{
 	bbackground-color: blue;
-	white-space: nowrap;
-	overflow: hidden;
-	max-width: 100%;
+
+	width: 100%;
 	display:inline-block;
 
 }
-.ciag{
-	background-color: blue;
-	white-space: nowrap;
-	overflow: hidden;
-	max-width: 500px !important;
-	display:inline-block;
-}
+
 
 div[id="relka1"]{
 	bbackground-color: red;
 	float:left;
+
 
 	
 }
@@ -305,6 +303,7 @@ div[id="relka2"]{
 	bbackground-color: yellow;
 	float:left;
 	margin: 10px;
+	width:63%;
 
 
 	display:inline-block;
