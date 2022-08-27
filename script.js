@@ -65,10 +65,27 @@ element.onmouseleave = function() {
 
 
 //relacje
-relki = [["https://pbs.twimg.com/profile_images/593430376443445248/m99ZwQgD_400x400.jpg", "korwin","chodzą razem na ryby"],
-["https://cdn.discordapp.com/attachments/844563617533919242/1013197164010295426/unknown.png","kotek","mmiau!"],
-["https://cdn.discordapp.com/attachments/844563617533919242/1013080908401742004/unknown.png","Kaneki","oshiete oshiete yo"]];
+relki = [["https://cdn.discordapp.com/attachments/844563617533919242/1013210647372234842/unknown.png", "Laurin Ciel Lavigne","Evelynn bardzo lubi marionetkę i chyba ze wzajemnością. Dobrze się ze soba dogadują, czasami zdarza im się też flirtować, ale relacja nadal ma całkowicie przyjacielski wydźwięk"],
+["https://cdn.discordapp.com/attachments/844563617533919242/1013213158535610409/unknown.png","Maja Marion Kesselring","Eve nie widział swojej kuzynki od co najmniej kilkunastu lat. Nie wie, że dziewczynie udało się uciec tak jak jemu i pewnie myśli, że wampirka nie żyje. Gdy byli dziećmi z racji podobnego wieku łatwo się zaprzyjaźnili. Maja była dla wampira praktycznie jak siostra."],
+["https://cdn.discordapp.com/attachments/844563617533919242/1013219812400451684/unknown.png","Kaleb \"Joker\" Price","Wampir potrzebował pieniędzy, a lichwiarz był mu w stanie je zaoferować. Były to czasy, gdy wampir ledwo wiązał koniec z końcem, dlatego też nawet nie liczył na to, że uda mu się pożyczkę zwrócić. Z dnia na dzień po prostu zniknął i od tamtego dnia modli się, żeby na swojego wierzyciela nie wpaść."]];
 
+
+function compareSecondColumn(a, b) {
+    if (a[1] === b[1]) {
+        return 0;
+    }
+    else {
+        return (a[1] < b[1]) ? -1 : 1;
+    }
+}
+
+relki.sort(compareSecondColumn);
+relki = relki.sort(compareSecondColumn);
+
+
+
+
+ 
 for(i = 0; i < relki.length; i++){
 	element = document.getElementById("relki").innerHTML+= " <div id = \"rl"+i+"\", class = \"relka\"> <div id = \"relka1\"> <img src = \""+relki[i][0]+"\"> </div><div id = \"relka2\"> <br><b>"+relki[i][1]+"</b><br>"+relki[i][2]+"</div> </div><br>";
 
