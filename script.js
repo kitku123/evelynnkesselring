@@ -1,6 +1,6 @@
 var strona = 1;
 
-//przyciemnianie
+//przyciemnianiee
 
 element = document.getElementById("lewo");
 
