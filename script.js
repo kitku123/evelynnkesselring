@@ -67,7 +67,7 @@ element.onmouseleave = function() {
 //relacje
 relki = [["https://cdn.discordapp.com/attachments/844563617533919242/1013210647372234842/unknown.png", "Laurin Ciel Lavigne","Evelynn bardzo lubi marionetkę i chyba ze wzajemnością. Dobrze się ze soba dogadują, czasami zdarza im się też flirtować, ale relacja nadal ma całkowicie przyjacielski wydźwięk"],
 ["https://cdn.discordapp.com/attachments/844563617533919242/1013213158535610409/unknown.png","Maja Marion Kesselring","Eve nie widział swojej kuzynki od co najmniej kilkunastu lat. Nie wie, że dziewczynie udało się uciec tak jak jemu i pewnie myśli, że wampirka nie żyje. Gdy byli dziećmi z racji podobnego wieku łatwo się zaprzyjaźnili. Maja była dla wampira praktycznie jak siostra."],
-["https://cdn.discordapp.com/attachments/844563617533919242/1013219812400451684/unknown.png","Kaleb \"Joker\" Price","Wampir potrzebował pieniędzy, a lichwiarz był mu w stanie je zaoferować. Były to czasy, gdy wampir ledwo wiązał koniec z końcem, dlatego też nawet nie liczył na to, że uda mu się pożyczkę zwrócić. Z dnia na dzień po prostu zniknął i od tamtego dnia modli się, żeby na swojego wierzyciela nie wpaść."]];
+["https://cdn.discordapp.com/attachments/844563617533919242/1013219812400451684/unknown.png","Kaleb \"Joker\" Price","Wampir potrzebował pieniędzy, a lichwiarz był mu w stanie je zaoferować. Były to czasy, gdy Eve ledwo wiązał koniec z końcem, dlatego też nawet nie liczył na to, że uda mu się pożyczkę zwrócić. Z dnia na dzień po prostu zniknął i od tamtego dnia modli się, żeby na swojego wierzyciela nie wpaść."]];
 
 
 function compareSecondColumn(a, b) {
