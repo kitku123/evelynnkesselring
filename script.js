@@ -1,6 +1,6 @@
 var strona = 1;
 
-//przyciemnianiee
+//przyciemnianie
 
 element = document.getElementById("lewo");
 
@@ -65,9 +65,24 @@ element.onmouseleave = function() {
 
 
 //relacje
-relki = [["https://cdn.discordapp.com/attachments/844563617533919242/1013210647372234842/unknown.png", "Laurin Ciel Lavigne","Evelynn bardzo lubi marionetkę i chyba ze wzajemnością. Dobrze się ze soba dogadują, czasami zdarza im się też flirtować, ale relacja nadal ma całkowicie przyjacielski wydźwięk"],
+relki = [
+["https://cdn.discordapp.com/attachments/844563617533919242/1013210647372234842/unknown.png", "Laurin Ciel Lavigne","Evelynn bardzo lubi marionetkę i chyba ze wzajemnością. Dobrze się ze soba dogadują, czasami zdarza im się też flirtować, ale relacja nadal ma całkowicie przyjacielski wydźwięk"],
 ["https://cdn.discordapp.com/attachments/844563617533919242/1013213158535610409/unknown.png","Maja Marion Kesselring","Eve nie widział swojej kuzynki od co najmniej kilkunastu lat. Nie wie, że dziewczynie udało się uciec tak jak jemu i pewnie myśli, że wampirka nie żyje. Gdy byli dziećmi z racji podobnego wieku łatwo się zaprzyjaźnili. Maja była dla wampira praktycznie jak siostra."],
-["https://cdn.discordapp.com/attachments/844563617533919242/1013219812400451684/unknown.png","Kaleb \"Joker\" Price","Wampir potrzebował pieniędzy, a lichwiarz był mu w stanie je zaoferować. Były to czasy, gdy Eve ledwo wiązał koniec z końcem, dlatego też nawet nie liczył na to, że uda mu się pożyczkę zwrócić. Z dnia na dzień po prostu zniknął i od tamtego dnia modli się, żeby na swojego wierzyciela nie wpaść."]];
+["https://cdn.discordapp.com/attachments/844563617533919242/1013219812400451684/unknown.png","Kaleb \"Joker\" Price","Wampir potrzebował pieniędzy, a lichwiarz był mu w stanie je zaoferować. Były to czasy, gdy Eve ledwo wiązał koniec z końcem, dlatego też nawet nie liczył na to, że uda mu się pożyczkę zwrócić. Z dnia na dzień po prostu zniknął i od tamtego dnia modli się, żeby na swojego wierzyciela nie wpaść."],
+["https://cdn.discordapp.com/attachments/844563617533919242/1013369874740936754/unknown.png", "Dimitr Wodzirej", "do uzupełnienia"],
+["https://cdn.discordapp.com/attachments/844563617533919242/1013371333171744798/unknown.png","Noir Dealla \"Nola\" Lavigne", "do uzupełnienia"],
+["https://cdn.discordapp.com/attachments/844563617533919242/1013399009412513802/unknown.png", "Morta Deane (Jasnowidzka Fortune)", "Przy jednej z pierwszych rozmów wiedźma jasno dała do zrozumienia, że wie o sekrecie wampira. Ten zagroził jej, że ją zabije, jeżeli tylko z kimś się nim podzieli. Morta jakoś nie przejęła się tą groźbą, ale sekretu dochowała i żyje do dziś. Teraz są przyjaciółmi."],
+["https://cdn.discordapp.com/attachments/844563617533919242/1013399085975355432/unknown.png", "Selena \"Strixa\" Fegari", "do uzupełnienia"],
+["https://cdn.discordapp.com/attachments/844563617533919242/1013407921142505563/unknown.png", "Sirius Alinac","Gdy wampir spotkał zaklinacza szczurów po raz pierwszy, pomyślał jedynie - \"śmierdzi\". Wkrótce okazało się jednak, że Sirius jest bardzo ciekawą i przyjazną osobą. Z czasem zostali bliskimi przyjaciółmi i choć Sirius nadal czasami śmierdzi, to Evelynnowi udało się go kilka razy namówić do kąpieli drogą szantażu emocjonalnego." ],
+["https://cdn.discordapp.com/attachments/844563617533919242/1013411370756214895/unknown.png", "Tsumi Yudokuna", "do uzupełnienia"]
+
+
+
+
+
+];
+
+
 
 
 function compareSecondColumn(a, b) {
@@ -204,7 +219,7 @@ function dl2(id, tekst){
 dl1("p1","Eve pochodzi z dużego wampirzego rodu, którego przedstawicieli na tym świecie trudno już szukać. Z wiadomych więc powodów nie posługuje się swoim dawnym nazwiskiem. Pełnym imieniem też nie dzieli się często - w cyrku występuje pod pseudonimem \"Eve\", będącym tak właściwie zdrobnieniem prawdziwego imienia. <br>W spisie ludności widnieje pod jako \"Eve Monnaie\".");
 dl1("p2", "Choć jest wampirem czystej krwi, swoją rasę jest zmuszony ukrywać, by w ten sposób nie ujawnić swojej prawdziwej tożsamości. Żyje jako człowiek.<br>O tym, że w rzeczywistości człowiekiem nie jest, wie tylko kilka zaufanych mu osób. Te, które dowiedziały się przypadkiem albo już nie żyją, albo mają bardzo dobre informacje, żeby go tym szantażować.");
 dl1("p3", "Życie nauczyło go, jak udawać. Choć zaczynąjąc pracę w cyrku o sztuce iluzji nie miał zbyt wielkiego pojęcia, po jakimś czasie udało mu się opanować ją całkiem dobrze. Podczas cyrkowego programu, ma swój własny pokaz magii. Często też zdarza mu się też asystować w przedstawieniach innych cyrkowców.");
-dl1("p4", "Po świecie nie stąpa jeszcze zbyt długo, ale żyje dostatecznie długo, żeby pamiętać,co się stało z resztą jego rodziny. Uciec z domu był zmuszony w wieku lat 14. Trochę włóczył się po świecie, szukając swojego miejsca, jednak od kilku lat to cyrk jest jego domem.");
+dl1("p4", "Po świecie nie stąpa jeszcze zbyt długo, ale żyje dostatecznie długo, żeby pamiętać,co się stało z resztą jego rodziny. Uciec z domu był zmuszony w wieku lat 11. Trochę włóczył się po świecie, szukając swojego miejsca, jednak od kilku lat to cyrk jest jego domem.");
 dl1("p5", "Nigdy nie czuł się jakoś nierozłącznie powiązany z męskością, ale nigdy też się jej nie brzydził. Wampir uważa, że płeć to jedynie koncept i lubi z nią eksperymentować Choć na co dzień nie ma żadnego problemu z byciem określanym jako mężczyzna, to często można go zobaczyć w makijażu, perukach czy sukienkach - w tym również podczas cyrkowych pokazów.");
 dl1("p6", "Evelynn gustuje zarówno w kobietach, jak i mężczyznach, a tymi, którzy nie wpisują się w wymienione kategorie również nie gardzi. Uwielbia flirtować, przeżywać przelotne romanse i one night standy. Nie interesują go jednak szczególnie związki - jeśli chodzi o partnerów romantycznych jest dużo bardziej wybredny niż przy partnerach seksualnych.");
 
